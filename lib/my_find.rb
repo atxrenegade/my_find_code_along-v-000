@@ -7,6 +7,7 @@ def my_find(collection)
       counter += 1
       
     end
+    collection[counter]
   end  
   
   
