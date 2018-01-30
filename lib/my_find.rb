@@ -1,6 +1,6 @@
 require 'pry'
 
-def find 
+def my_find 
   
   
   
