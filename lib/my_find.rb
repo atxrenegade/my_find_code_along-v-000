@@ -1,15 +1,9 @@
 require 'pry'
 
 def my_find(collection)
-  if !(collection.empty?)
-    counter = 0
-    while counter < collection.length
-      yield (collection[counter])
-        counter += 1
-        
-    end
-    
-  end  
-  
-  
-end  
+  i = 0
+  while i < collection.length
+    yield(collection[i])
+    i = i + 1
+  end
+end
