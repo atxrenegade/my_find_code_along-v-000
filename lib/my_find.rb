@@ -4,7 +4,7 @@ def my_find(collection)
   if !(collection.empty?)
     counter = 0
     while counter < collection.length
-      collection.each do |x|
+      yield collection[counter]
         counter += 1
       end  
     end
